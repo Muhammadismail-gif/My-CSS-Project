@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./pexels-resourceboy-18541716.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.div2{
+    border: 1px solid ;
+    border-color: black;
+    margin: 0;
+    align-items: center;
+padding: 30px;
+height: 550px;
+width: 300px;
+justify-content: right;
+background-color: white;
+position: relative;
+border-radius: 12px;
+text-justify: initial;
+flex-direction: column;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    padding-inline: 60px;
+    margin-bottom: 1px;
+    padding-inline: 80px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.username-password{
+    width: px;
+}
+
+.username{
+    block-size: 10pc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.placeholder1{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(230, 231, 235);
+    background-color: transparent;
+    border-radius: 0;
+    
+}
+.password{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.placeholder2{
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(238, 233, 229)
+    
+    
+}
+
+.remember{
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family:fantasy;
+    font-size: large;
+    font-display: 1px;
+    background-color: aquamarine;
+}
+
+.button:hover{
+cursor: pointer;
+background-color: darkgrey;
+color: rgb(173, 31, 31);
+transform: scale(1.05);
+
+}
+.button img{
+    inline-size: auto;
+    width: 0px;
+}
+
+.other{
+     text-align: center;
+}
+
+.href{
+    align-items: center;
+    padding: 20px;
+    inline-size: none;
+    justify-content: start;
+    display: flex;
+    gap: 10px;
+    padding-inline: 55px;
+    
+}
+
+.google{
+    height: 30px;
+    justify-content: start;
+    font-size: 24px;
+}
+
+.google:hover{
+    color: red;
+    text-decoration: underline;
+    transform: scale(1.4);
+    
+}
+
+.facebook{
+    height: 40px;
+    justify-content: start;
+}
+
+.facebook:hover{
+    color: red;
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+.twitter{
+    height: 40px;
+    justify-content: start;
+}
+
+.twitter:hover{
+    color: red;
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+
+.other2{
+    text-align: center;
+}
+
+.sign1{
+    text-align: center;
+    color: rgb(17, 20, 20);
+    padding-inline: 85px;
+}
