@@ -20,8 +20,9 @@ body{
     align-items: center;
 padding: 30px;
 height: 550px;
-width: 300px;
-justify-content: right;
+width: 350px;
+display: flex;
+justify-content: center;
 background-color: white;
 position: relative;
 border-radius: 12px;
@@ -39,8 +40,8 @@ h2{
     padding-bottom: 30px;
 }
 
-.username-password{
-    width: px;
+.div1 .div2 .username-password{
+   
 }
 
 .username{
@@ -82,9 +83,10 @@ h2{
     border-radius: 20px;
     text-align: center;
     font-family:fantasy;
+    color: white;
     font-size: large;
     font-display: 1px;
-    background-color: aquamarine;
+    background-color: rgb(24, 48, 225);
 }
 
 .button:hover{
@@ -153,7 +155,8 @@ transform: scale(1.05);
 }
 
 .sign1{
+    text-decoration: none;
     text-align: center;
-    color: rgb(17, 20, 20);
+    color: rgb(182, 27, 48);
     padding-inline: 85px;
 }
