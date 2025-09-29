@@ -44,9 +44,9 @@ body{
 
 h2{
     text-align: center;
-    color: #1717c8;
-    display: ;
-    margin-bottom: 8px;
+    color: #1457dd;
+    margin-bottom:20px;
+    padding-bottom: 10px;
 }
 
 .input-group input{
@@ -58,7 +58,7 @@ h2{
     background-color: transparent;
     color: #fff;
     transition: border-color 0.3s ease-in-out box-shadow 0.10 ease-in-out;
-    <i class="fa-solid fa-envelope"></i>
+    
 }
 
 .input-group input:focus{
@@ -67,9 +67,18 @@ h2{
     box-shadow: 0 0 10px rgba(0, 9, 184, 0.315);
 }
 
+.password {
+    display: flex;
+ padding-top: 1px;
+ margin-top: 12px;
+}
+
 .remember-me {
+    display: flex;
+    padding-top: 1px;
+    margin-top: 12px;
     margin-bottom: 20px;
-    color: #d1d2ff;
+    color: #0d15a8;
 }
 
 .remember-me input {
@@ -95,6 +104,7 @@ h2{
 }
 
 .forgot-password{
+    
     color: rgb(49, 81, 109);
     font-size: 14px;
     font-weight: 500;
