@@ -2,8 +2,16 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
+nav {
+  color: #fff;
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
+  padding: 10px 5px;
+}
 
 .header{
     width: 100%;
@@ -12,11 +20,10 @@
     padding: 10px 0;
     justify-content: space-between;
     position: fixed;
-    z-index: 99;
-    box-shadow: 0 0 10px #000;
+    z-index: 80;
+    box-shadow: 0 0 10px #d8acac;
     flex: 1;
     backdrop-filter: 100px;
-    display: flex;
     position: sticky 0px;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -67,14 +74,11 @@
     border-bottom: 3px solid cadetblue;
 }
 
-/* This is list */
 
-.icon{
-
-    display: none;
-    position: relative;
-    left: 700px;
-    bottom: 30px;
+.header .list .icon{
+  display: flex;
+  justify-content: sp;
+    
 }
 
 .icon button{
@@ -101,9 +105,12 @@
 
 }
 
-.icon i{
-    padding-left: 5px;
-    border-radius: 50%;
+.header .list .icon i{
+
+   display: flex;
+   justify-content: space-between;
+   width: 10px;
+   gap: px;
 }
 .icon i:hover{
     background-color: none;
@@ -112,9 +119,6 @@
 }
 
 /* This is icon  */
-
-
-
 
 .sub{
     display: flex;
