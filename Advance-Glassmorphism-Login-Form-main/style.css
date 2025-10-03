@@ -1,5 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -26,7 +25,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #090000;
   border-radius: 16px;
   padding: 20px 30px;
 }
@@ -49,15 +48,15 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(154, 127, 127, 0.2);
   border-radius: 40px;
   font-size: 16px;
-  color: #fff;
+  color: #2f2727;
   padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-  color: #fff;
+  color: #ada1a1;
 }
 
 .input-box i {
@@ -81,7 +80,7 @@ body {
 }
 
 .remember-forgot a {
-  color: #fff;
+  color: #f31e1e;
   text-decoration: none;
 }
 
@@ -92,14 +91,14 @@ body {
 .wrapper .btn {
   width: 100%;
   height: 45px;
-  background: #fff;
+  background: #6d94db;
   border: none;
   outline: none;
   border-radius: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-size: 16px;
-  color: #333;
+  color: #faefef;
   font-weight: 600;
 }
 
@@ -110,7 +109,7 @@ body {
 }
 
 .wrapper .register-link p a {
-  color: #fff;
+  color: #f01f1f;
   text-decoration: none;
   font-weight: 600;
 }
