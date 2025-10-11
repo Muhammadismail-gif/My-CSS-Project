@@ -1,0 +1,85 @@
+/* Basic reset and body styling for the container */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+/* 1. Set up the perspective for the 3D effect */
+.cube-container {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px; /* How "far" the viewer is */
+}
+
+/* 2. Define the cube element and its rotation axis */
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Key to making children 3D */
+    /* Start the animation */
+    animation: rotateCube 12s infinite linear;
+}
+
+/* 3. Style for all faces */
+.face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+    opacity: 0.9;
+    background: rgba(0, 150, 255, 0.7); /* Semi-transparent blue */
+}
+
+/* 4. Position and rotate each face into its 3D position */
+/* Face size is 200px, so half the size (100px) is used for translation */
+.front {
+    transform: translateZ(100px);
+    background: rgba(255, 0, 0, 0.7); /* Red */
+}
+
+.back {
+    transform: rotateY(180deg) translateZ(100px);
+    background: rgba(0, 255, 0, 0.7); /* Green */
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(100px);
+    background: rgba(255, 255, 0, 0.7); /* Yellow */
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(100px);
+    background: rgba(255, 0, 255, 0.7); /* Magenta */
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(100px);
+    background: rgba(0, 255, 255, 0.7); /* Cyan */
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+    background: rgba(255, 165, 0, 0.7); /* Orange */
+}
+
+/* 5. Define the rotation animation */
+@keyframes rotateCube {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100% {
+        /* Rotate a full circle on all three axes */
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
